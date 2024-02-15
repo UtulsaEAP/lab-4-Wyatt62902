@@ -10,16 +10,15 @@ def inc_5():
     user_end = int(input())
     series = ''
     if user_start < user_end:
-        while user_start != user_end:
+        while user_start <= user_end:
+            series += str(user_start) + ' '
             user_start += 5
-            series = series + str(user_start) + ' '
+            
         print(series + '\n')
     elif user_start == user_end:
         print(str(user_start)+ ' \n')
     else:
-        print("Second integer can't be less than the first")
-
-    return 0
+        print("Second integer can't be less than the first.")
 
 if __name__ == '__main__':
     inc_5()

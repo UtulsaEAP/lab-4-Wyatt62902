@@ -7,7 +7,7 @@ Lab Time:
 
 def norm():
     # Write your code here
-    return 0
+    pass
 
 if __name__ == "__main__":
     norm()
