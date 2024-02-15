@@ -8,6 +8,6 @@ Lab Time:
 def reverse_string():
     # YOUR CODE HERE
     
-
+    return ""
 if __name__ == "__main__":
     reverse_string()

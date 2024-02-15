@@ -11,13 +11,13 @@ def password_mod():
     for letter in word:
         if letter == "i":
             password = password+"1"
-        if letter == "a":
+        elif letter == "a":
             password = password+"@"
-        if letter == "m":
+        elif letter == "m":
             password = password+"M"
-        if letter == "B":
+        elif letter == "B":
             password = password+"8"
-        if letter == "s":
+        elif letter == "s":
             password = password+"$"
         else:
             password = password+str(letter)

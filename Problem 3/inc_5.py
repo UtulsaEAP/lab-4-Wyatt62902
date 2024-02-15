@@ -8,7 +8,7 @@ Lab Time:
 def inc_5():
     # Write your code here
     
-
+    return 0
 
 
 if __name__ == '__main__':
