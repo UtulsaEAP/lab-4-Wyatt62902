@@ -6,9 +6,17 @@ Lab Time:
 """
 
 def inc_5():
-    # Write your code here
-    
-    return 0
+    user_start = int(input())
+    user_end = int(input())
+    series = ''
+    if user_start < user_end:
+
+        while user_start != user_end:
+            user_start += 5
+            series = series + str(user_start) + ' '
+        print(series + '\n')
+    else:
+        print("Invalid")
 
 
 if __name__ == '__main__':
