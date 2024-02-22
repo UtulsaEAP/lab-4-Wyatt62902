@@ -1,8 +1,8 @@
 """
 Complete the following python code to print the reverse binary representation of positive integer number entered by the user.
 
-Name:
-Lab Time:
+Name: Wyatt Fulton
+Lab Time: 2:00 PM
 
 """
 
