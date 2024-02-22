@@ -19,6 +19,6 @@ def brute_eq():
     f = int(input())
 
     # YOUR CODE HERE
-    
+    pass
 if __name__ == "__main__":
     brute_eq()
